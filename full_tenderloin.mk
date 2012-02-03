@@ -27,7 +27,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 $(call inherit-product, device/hp/tenderloin/device_tenderloin.mk)
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := full_tenderloin
+PRODUCT_NAME := aokp_tenderloin
 PRODUCT_DEVICE := tenderloin
 PRODUCT_BRAND := hp
 PRODUCT_MODEL := touchpad
